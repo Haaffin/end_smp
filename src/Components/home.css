@@ -1,0 +1,21 @@
+.home_contain{
+    padding: 5vh;
+    margin: auto;
+    width: 75%;
+    text-align: center;
+}
+
+.home_contain .about h1{
+    font-size: 50px;
+    font-weight: bold;
+    padding-bottom: 3vh;
+    text-decoration: underline;
+}
+
+.home_contain .about p{
+    font-size: 20px;
+}
+
+.home_contain button{
+    margin: 10px;
+}
