@@ -47,14 +47,13 @@ table {
 
 body{ 
   margin:0; padding: 0;
-  background-color: rgba(255, 255, 255, 0.747);
+  background-color: rgba(255, 255, 255, 0.63);
 }
 
 .header{
-  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.96);
   margin: 0;
   padding: 0;
-  border-bottom: 2px solid black;
 }
 
 .header .header_text{
@@ -65,6 +64,21 @@ body{
 }
 
 a{
-  text-decoration: none;
+  text-decoration: underline;
   color: rgba(255, 255, 255, 0.747);
 }
+
+/* .header_image{
+	padding-bottom: 5vh;
+	padding-top: 0;
+	background-color: black;
+}
+
+.header_image .img_contain img{
+	width: 50%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+} */
+
+

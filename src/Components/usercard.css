@@ -1,0 +1,29 @@
+.card-contain{
+	width: 50%;
+	display: flex;
+	margin: auto;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+.card{
+    margin: 2vh;
+    width: 25rem;
+}
+
+.card-text{
+    font-size: large;
+}
+
+.card button{
+    padding: 1vh;
+    margin: 1vh;
+}
+
+.card img{
+    width: 350px;
+    height: 253px;
+    margin:auto;
+}
+

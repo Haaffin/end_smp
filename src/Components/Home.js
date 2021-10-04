@@ -1,17 +1,13 @@
-import React, {useState, useRef} from 'react'
-import Button from 'react-bootstrap/Button';
-import Overlay from 'react-bootstrap/Overlay';
+import React from 'react'
+import { Button }from 'react-bootstrap'
+import {Link} from 'react-router-dom'
 import './home.css'
 
 function Home(){
-
-    const [show, setShow] = useState(false);
-    const target = useRef(null);
-
     return(
         <div className='home_contain'>
             <div className="about">
-            <h1>Generic About Us</h1>
+            <h1>About The End</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vulputate mi eleifend turpis mollis pellentesque. 
                     Integer tempus placerat ex sit amet vulputate. Suspendisse elementum risus sem, eget scelerisque ligula pellentesque at. 
                     Sed et ultrices augue. Proin blandit justo non felis dignissim consectetur. Nulla malesuada varius urna, a egestas neque lacinia nec. 
@@ -20,27 +16,14 @@ function Home(){
             </div>
 
             <div className='main_body'>
-                <Button variant="danger" ref={target} onClick={() => setShow(!show)}>See the Characters</Button>
-                <Button variant="danger" ref={target} onClick={() => setShow(!show)}>Follow everyone's socials here!</Button>
-                <Overlay target={target.current} show={show} placement="bottom">
-                    {({ placement, arrowProps, show: _show, popper, ...props }) => (
-                    <div
-                        {...props}
-                        style={{
-                            width: '10%',
-                            backgroundColor: 'rgb(255, 100, 100',
-                            padding: '15px',
-                            margin: '5px',
-                            color: 'white',
-                            borderRadius: 3,
-                            ...props.style,
-                        }}
-                    >
-                        Coming Soon
-                    </div>
-                    )}
-                </Overlay>
+                <div className='button1'>
+                <Link to='/usercard'> <Button variant="danger"> Meet the gang! </Button> </Link>
+                </div>
+                <div className='button2'>
+                    <Button variant="danger"> Apply to join! </Button>
+                </div>
             </div>
+
         </div>
     )
 }

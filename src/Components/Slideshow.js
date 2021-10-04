@@ -14,25 +14,25 @@ function Slideshow(){
                 <Carousel.Item interval={5000}>
                     <img
                     className='d-block w-10 mx-auto'
-                    src={`${Rainbow}`}
+                    src={`${Rainbow}`} alt='temp alt text'
                     />
                 </Carousel.Item>
                 <Carousel.Item interval={5000}>
                     <img
                     className='d-block w-10 mx-auto'
-                    src={`${TaylorLav}`}
+                    src={`${TaylorLav}`} alt='temp alt text'
                     />
                 </Carousel.Item>
                 <Carousel.Item interval={5000}>
                     <img
                     className='d-block w-10 mx-auto'
-                    src={`${Lavender}`}
+                    src={`${Lavender}`} alt='temp alt text'
                     />
                 </Carousel.Item>
                 <Carousel.Item interval={5000}>
                     <img
                     className='d-block w-10 mx-auto'
-                    src={`${Chase}`}
+                    src={`${Chase}`} alt='temp alt text'
                     />
                 </Carousel.Item>
             </Carousel>
