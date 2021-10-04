@@ -4,6 +4,7 @@ import Rainbow from '../rainbow.png'
 import TaylorLav from '../Taylor_Lavender.png'
 import Chase from '../chase.png'
 import Lavender from '../lavender.png'
+import Arena from '../arena.png'
 
 import './slideshow.css'
 
@@ -33,6 +34,12 @@ function Slideshow(){
                     <img
                     className='d-block w-10 mx-auto'
                     src={`${Chase}`} alt='temp alt text'
+                    />
+                </Carousel.Item>
+                <Carousel.Item interval={5000}>
+                    <img
+                    className='d-block w-10 mx-auto'
+                    src={`${Arena}`} alt='temp alt text'
                     />
                 </Carousel.Item>
             </Carousel>

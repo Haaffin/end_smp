@@ -5,6 +5,7 @@ import Theo from '../theo.png'
 import Haaff from '../Haaff.png'
 import Nat from '../national.png'
 import Nym from'../nym.png'
+import Taylor from '../taylor.jpg'
 import "./usercard.css"
 
 function UserCard(){
@@ -24,15 +25,15 @@ function UserCard(){
             </Card>
 
             <Card className='card'>
-                <Card.Img variant="top" src={`${Tube}`} />
+                <Card.Img variant="top" src={`${Taylor}`} />
                 <Card.Body>
                     <Card.Title>Taylor</Card.Title>
                     <Card.Text>
                     This might be empty in the final version
                     </Card.Text>
-                    <a href='#' target=''><Button variant="danger">Twitch</Button></a>
-                    <a href='#' target=''><Button variant="danger">Youtube</Button></a>
-                    <a href='#' target=''><Button variant="danger">Twitter</Button></a>
+                    <a href='https://www.twitch.tv/itsme_taylor' target='__blank'><Button variant="primary">Twitch</Button></a>
+                    <a href='https://www.youtube.com/channel/UCphlHz0YZu1_NkGwnIrdIbQ' target='__blank'><Button variant="primary">Youtube</Button></a>
+                    <a href='https://mobile.twitter.com/itsme_taylort' target='__blank'><Button variant="primary">Twitter</Button></a>
                 </Card.Body>
             </Card>
 
