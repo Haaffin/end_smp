@@ -23,8 +23,9 @@
     }
 
     .card img{
-        width: 400px;
-        height: 400px;
+        padding-top: 2vh;
+        width: 350px;
+        height: 350px;
         margin:auto;
     }
 

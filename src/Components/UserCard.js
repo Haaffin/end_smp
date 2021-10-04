@@ -4,6 +4,7 @@ import Tube from '../ellaTube.png'
 import Theo from '../theo.png'
 import Haaff from '../Haaff.png'
 import Nat from '../national.png'
+import Nym from'../nym.png'
 import "./usercard.css"
 
 function UserCard(){
@@ -12,7 +13,7 @@ function UserCard(){
             <Card className='card'>
                 <Card.Img variant="top" src={`${Nat}`} />
                 <Card.Body>
-                    <Card.Title>NationalGoodBoy</Card.Title>
+                    <Card.Title>National</Card.Title>
                     <Card.Text>
                         This might be empty in the final version
                     </Card.Text>
@@ -25,7 +26,7 @@ function UserCard(){
             <Card className='card'>
                 <Card.Img variant="top" src={`${Tube}`} />
                 <Card.Body>
-                    <Card.Title>Itsme_Taylor</Card.Title>
+                    <Card.Title>Taylor</Card.Title>
                     <Card.Text>
                     This might be empty in the final version
                     </Card.Text>
@@ -36,9 +37,22 @@ function UserCard(){
             </Card>
 
             <Card className='card'>
+                <Card.Img variant="top" src={`${Nym}`} />
+                <Card.Body>
+                    <Card.Title>Nymira</Card.Title>
+                    <Card.Text>
+                        This might be empty in the final version
+                    </Card.Text>
+                    <a href='https://www.twitch.tv/darkwatcher_nymira' target='__blank'><Button variant="primary">Twitch</Button></a>
+                    <Button variant="danger">Youtube</Button>
+                    <Button variant="danger">Twitter</Button>
+                </Card.Body>
+            </Card>
+
+            <Card className='card'>
                 <Card.Img variant="top" src={`${Haaff}`} />
                 <Card.Body>
-                    <Card.Title>Haaffinstaaff</Card.Title>
+                    <Card.Title>Echo</Card.Title>
                     <Card.Text>
                     This might be empty in the final version
                     </Card.Text>
@@ -48,18 +62,6 @@ function UserCard(){
                 </Card.Body>
             </Card>
 
-            <Card className='card'>
-                <Card.Img variant="top" src={`${Tube}`} />
-                <Card.Body>
-                    <Card.Title>Nymira</Card.Title>
-                    <Card.Text>
-                        This might be empty in the final version
-                    </Card.Text>
-                    <a href='#' target=''><Button variant="danger">Twitch</Button></a>
-                    <a href='#' target=''><Button variant="danger">Youtube</Button></a>
-                    <a href='#' target=''><Button variant="danger">Twitter</Button></a>
-                </Card.Body>
-            </Card>
 
             <Card className='card'>
                 <Card.Img variant="top" src={`${Theo}`} />
@@ -69,8 +71,8 @@ function UserCard(){
                         This might be empty in the final version
                     </Card.Text>
                     <a href='https://www.twitch.tv/galactic__jelly' target='__blank'><Button variant="primary">Twitch</Button></a>
-                    <a href='#' target=''><Button variant="danger">Youtube</Button></a>
-                    <a href='#' target=''><Button variant="danger">Twitter</Button></a>
+                    <Button variant="danger">Youtube</Button>
+                <Button variant="danger">Twitter</Button>
                 </Card.Body>
             </Card>
 
@@ -95,7 +97,7 @@ function UserCard(){
                         This might be empty in the final version
                     </Card.Text>
                     <a href='https://www.twitch.tv/bardicled' target='__blank'><Button variant="primary">Twitch</Button></a>
-                    <a href='#' target=''><Button variant="danger">Youtube</Button></a>
+                    <Button variant="danger">Youtube</Button>
                     <a href='https://twitter.com/bardicled' target='__blank'><Button variant="primary">Twitter</Button></a>
                 </Card.Body>
             </Card>
