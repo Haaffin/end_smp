@@ -20,7 +20,7 @@ function Home(){
                 <Link to='/usercard'> <Button variant="danger"> Meet the gang! </Button> </Link>
                 </div>
                 <div className='button2'>
-                    <Button variant="danger"> Apply to join! </Button>
+                    <a href='https://forms.gle/rcyPXQMaGQGKBZNm9' target='__blank'><Button variant="danger"> Apply to join! </Button></a>
                 </div>
             </div>
 

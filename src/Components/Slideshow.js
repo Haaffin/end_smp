@@ -1,10 +1,10 @@
 import React from 'react'
 import { Carousel } from 'react-bootstrap';
-import Rainbow from '../rainbow.png'
-import TaylorLav from '../Taylor_Lavender.png'
-import Chase from '../chase.png'
-import Lavender from '../lavender.png'
-import Arena from '../arena.png'
+import Rainbow from '../assets/Images/rainbow.png'
+import TaylorLav from '../assets/Images/Taylor_Lavender.png'
+import Chase from '../assets/Images/chase.png'
+import Lavender from '../assets/Images/lavender.png'
+import Arena from '../assets/Images/arena.png'
 
 import './slideshow.css'
 

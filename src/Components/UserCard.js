@@ -1,11 +1,13 @@
 import React from 'react'
 import {Card, Button} from 'react-bootstrap'
-import Tube from '../ellaTube.png'
-import Theo from '../theo.png'
-import Haaff from '../Haaff.png'
-import Nat from '../national.png'
-import Nym from'../nym.png'
-import Taylor from '../taylor.jpg'
+import Tube from '../assets/Images/tube.png'
+import Theo from '../assets/Images/theo.png'
+import Haaff from '../assets/Images/Haaff.png'
+import Nat from '../assets/Images/national.png'
+import Nym from'../assets/Images/nym.png'
+import Taylor from '../assets/Images/taylor.jpg'
+import Kai from '../assets/Images/kai.jpeg'
+import Moss from '../assets/Images/moss.png'
 import "./usercard.css"
 
 function UserCard(){
@@ -78,7 +80,7 @@ function UserCard(){
             </Card>
 
             <Card className='card'>
-                <Card.Img variant="top" src={`${Tube}`} />
+                <Card.Img variant="top" src={`${Moss}`} />
                 <Card.Body>
                     <Card.Title>Moss</Card.Title>
                     <Card.Text>
@@ -103,6 +105,19 @@ function UserCard(){
                 </Card.Body>
             </Card>
 
+            <Card className='card'>
+                <Card.Img variant="top" src={`${Kai}`} />
+                <Card.Body>
+                    <Card.Title>Kai</Card.Title>
+                    <Card.Text>
+                        This might be empty in the final version
+                    </Card.Text>
+                    <a href='https://www.twitch.tv/derpyartist101' target='__blank'><Button variant="primary">Twitch</Button></a>
+                    <a href='#' target=''><Button variant="danger">Youtube</Button></a>
+                    <a href='https://www.youtube.com/channel/UC1O5LBNTOi8oM284EPASLIQ' target='__blank'><Button variant="primary">Twitter</Button></a>
+                </Card.Body>
+            </Card>
+
             
         </div>
 
@@ -123,4 +138,4 @@ export default UserCard
     <a href='#' target=''><Button variant="danger">Youtube</Button></a>
     <a href='#' target=''><Button variant="danger">Twitter</Button></a>
 </Card.Body>
-</Card */}
+</Card> */}
