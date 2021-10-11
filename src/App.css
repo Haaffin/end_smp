@@ -72,9 +72,7 @@ a{
   color: rgba(255, 255, 255, 0.747);
 }
 
-@media only screen and (device-width: 390px) 
-and (device-height: 844px) 
-and (-webkit-device-pixel-ratio: 3) {
+@media screen and (max-width:767px){
 
 	.header{
 		text-align: center;

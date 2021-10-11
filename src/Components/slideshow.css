@@ -8,9 +8,7 @@ img{
     height:508px;
 }
 
-@media only screen and (device-width: 390px) 
-and (device-height: 844px) 
-and (-webkit-device-pixel-ratio: 3) {
+@media screen and (max-width:767px){
 
     img{
         width: 368px;
