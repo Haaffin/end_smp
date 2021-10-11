@@ -72,17 +72,20 @@ a{
   color: rgba(255, 255, 255, 0.747);
 }
 
-/* .header_image{
-	padding-bottom: 5vh;
-	padding-top: 0;
-	background-color: black;
+@media only screen and (device-width: 390px) 
+and (device-height: 844px) 
+and (-webkit-device-pixel-ratio: 3) {
+
+	.header{
+		text-align: center;
+	}
+	
+	.header .header_text{
+		font-size: 30px;
+		padding: 2vh;
+		padding-top: 3vh;
+		padding-bottom: 1vh;
+	  }
+
+
 }
-
-.header_image .img_contain img{
-	width: 50%;
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-} */
-
-

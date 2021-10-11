@@ -27,7 +27,29 @@
 .home_contain .main_body{
     display: flex;
     width: 25%;
-    margin: auto
-    ;
+    margin: auto;
 }
 
+
+@media only screen and (device-width: 390px) 
+and (device-height: 844px) 
+and (-webkit-device-pixel-ratio: 3) {
+
+    .home_contain{
+
+        width: 100%;
+    }
+    
+
+    .home_contain .main_body{
+        display: flex;
+        width: 80%;
+        margin: auto;
+    }
+    
+    .home_contain button{
+        padding: 20px;
+    }
+    
+
+}

@@ -7,3 +7,14 @@ img{
     width: 900px;
     height:508px;
 }
+
+@media only screen and (device-width: 390px) 
+and (device-height: 844px) 
+and (-webkit-device-pixel-ratio: 3) {
+
+    img{
+        width: 368px;
+        height: 207px;
+    }
+
+}
