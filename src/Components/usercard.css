@@ -30,3 +30,27 @@
     }
 
 }
+
+@media screen and (max-width:767px){
+
+    .card-contain{
+        width: 90%;
+        padding: 30px;
+        display: flex;
+        margin: auto;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .card{
+        margin: 2vh;
+        width: 25rem;
+    }
+
+    .card-text{
+        font-size: large;
+        padding-bottom: 20px;
+    }
+
+}

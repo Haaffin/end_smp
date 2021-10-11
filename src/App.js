@@ -5,6 +5,8 @@ import Home from './Components/Home'
 import Characters from './Components/Characters';
 import Socials from './Components/Socials'
 import Slideshow from './Components/Slideshow'
+
+import Github from './assets/Images/github.png'
 import './App.css';
 
 function App() {
@@ -29,6 +31,12 @@ function App() {
           <Route path='/Socials' component={Socials}/>
           <Route path='/usercard' component={UserCard} />
         </div>
+
+        <div className='footer'>
+        Have any issues with viewing the site? Open up an issue on the github!
+        <a href='https://github.com/Haaffin/end_smp' target='__blank'><img src={`${Github}`}></img></a>
+        </div>
+
       </div>
     </Switch>
   );
