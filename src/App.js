@@ -3,7 +3,6 @@ import {Route, Link, Switch} from 'react-router-dom'
 import UserCard from './Components/UserCard';
 import Home from './Components/Home'
 import Characters from './Components/Characters';
-import Socials from './Components/Socials'
 import Slideshow from './Components/Slideshow'
 
 import Github from './assets/Images/github.png'
@@ -28,7 +27,6 @@ function App() {
         <div className="body">
           <Route path='/' component={Home} exact/>
           <Route path='/characters' component={Characters} />
-          <Route path='/Socials' component={Socials}/>
           <Route path='/usercard' component={UserCard} />
         </div>
 

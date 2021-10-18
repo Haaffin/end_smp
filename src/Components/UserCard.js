@@ -8,6 +8,7 @@ import Nym from'../assets/Images/nym.png'
 import Taylor from '../assets/Images/taylor.jpg'
 import Kai from '../assets/Images/kai.jpeg'
 import Moss from '../assets/Images/moss.png'
+import Bard from '../assets/Images/bard.png'
 import "./usercard.css"
 
 function UserCard(){
@@ -20,9 +21,9 @@ function UserCard(){
                     <Card.Text>
                         This might be empty in the final version
                     </Card.Text>
-                    <a href='#' target='__blank'><Button variant="danger">Twitch</Button></a>
-                    <a href='#' target='__blank'><Button variant="danger">Youtube</Button></a>
-                    <a href='#' target='__blank'><Button variant="danger">Twitter</Button></a>
+                    <a href='https://www.twitch.tv/nationalgoodboy' target='__blank'><Button variant="primary">Twitch</Button></a>
+                    <Button variant="danger">Youtube</Button>
+                    <Button variant="danger">Twitter</Button>
                 </Card.Body>
             </Card>
 
@@ -46,7 +47,7 @@ function UserCard(){
                     <Card.Text>
                         This might be empty in the final version
                     </Card.Text>
-                    <a href='https://www.twitch.tv/darkwatcher_nymira' target='__blank'><Button variant="primary">Twitch</Button></a>
+                    <a href='https://www.twitch.tv/motherofdemons_nymira' target='__blank'><Button variant="primary">Twitch</Button></a>
                     <Button variant="danger">Youtube</Button>
                     <Button variant="danger">Twitter</Button>
                 </Card.Body>
@@ -75,7 +76,7 @@ function UserCard(){
                     </Card.Text>
                     <a href='https://www.twitch.tv/galactic__jelly' target='__blank'><Button variant="primary">Twitch</Button></a>
                     <Button variant="danger">Youtube</Button>
-                <Button variant="danger">Twitter</Button>
+                    <Button variant="danger">Twitter</Button>
                 </Card.Body>
             </Card>
 
@@ -93,7 +94,7 @@ function UserCard(){
             </Card>
 
             <Card className='card'>
-                <Card.Img variant="top" src={`${Tube}`} />
+                <Card.Img variant="top" src={`${Bard}`} />
                 <Card.Body>
                     <Card.Title>Bard</Card.Title>
                     <Card.Text>
@@ -113,7 +114,7 @@ function UserCard(){
                         This might be empty in the final version
                     </Card.Text>
                     <a href='https://www.twitch.tv/derpyartist101' target='__blank'><Button variant="primary">Twitch</Button></a>
-                    <a href='#' target=''><Button variant="danger">Youtube</Button></a>
+                    <Button variant="danger">Youtube</Button>
                     <a href='https://www.youtube.com/channel/UC1O5LBNTOi8oM284EPASLIQ' target='__blank'><Button variant="primary">Twitter</Button></a>
                 </Card.Body>
             </Card>

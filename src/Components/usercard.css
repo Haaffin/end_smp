@@ -1,4 +1,4 @@
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1366px){
     .card-contain{
         width: 75%;
         display: flex;
@@ -53,4 +53,50 @@
         padding-bottom: 20px;
     }
 
+}
+
+@media screen and (max-height: 1366px) and (orientation: landscape){
+    
+    .card-contain{
+        width: 90%;
+        padding: 30px;
+        display: flex;
+        margin: auto;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .card{
+        margin: 2vh;
+        width: 25rem;
+    }
+
+    .card-text{
+        font-size: large;
+        padding-bottom: 20px;
+    }
+}
+
+@media screen and (max-height: 1366px) and (orientation: portrait){
+    
+    .card-contain{
+        width: 80%;
+        padding: 30px;
+        display: flex;
+        margin: auto;
+        flex-wrap: wrap;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .card{
+        margin: 2vh;
+        width: 25rem;
+    }
+
+    .card-text{
+        font-size: large;
+        padding-bottom: 20px;
+    }
 }
