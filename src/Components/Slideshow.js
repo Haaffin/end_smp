@@ -5,7 +5,6 @@ import TaylorLav from '../assets/Images/Taylor_Lavender.png'
 import Chase from '../assets/Images/chase.png'
 import Lavender from '../assets/Images/lavender.png'
 import Arena from '../assets/Images/arena.png'
-import Jeremy from '../assets/Images/jeremy.png'
 import Cry from '../assets/Images/cry.png'
 import Remnant from '../assets/Images/remnant.png'
 
