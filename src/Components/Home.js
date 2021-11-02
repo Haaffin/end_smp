@@ -9,7 +9,11 @@ function Home(){
             <div className="about">
             <h1>About The End</h1>
                 <p>
-                    About Us coming soon
+                    Three kingdoms bonded in hardship and blood band together to overpower
+                    a despotic and egotistic goddess who threatens to lay waste to all they
+                    know and love. Trauma, torture, agony, and heartache accompany these
+                    warriors who risk their lives and sanity to make it to the End.
+                    But beware, the lines between good and evil aren’t so clear cut
                 </p>
             </div>
 
