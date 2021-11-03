@@ -19,7 +19,7 @@ function UserCard(){
                 <Card.Body>
                     <Card.Title>National</Card.Title>
                     <Card.Text>
-                        Lore Write <br/>
+                        Lore Writer <br/>
                         Director <br/>
                         Citizen of Remnant <br/>
                         Eli
