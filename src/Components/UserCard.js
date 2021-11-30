@@ -9,7 +9,7 @@ import Taylor from '../assets/Images/taylor.jpg'
 import Kai from '../assets/Images/kai.jpeg'
 import Moss from '../assets/Images/moss.png'
 import Bard from '../assets/Images/bard.png'
-import Nano from '../assets/Images/nano.png'
+import Nano from '../assets/Images/Nano.png'
 import "./usercard.css"
 
 function UserCard(){
