@@ -47,21 +47,6 @@ function UserCard(){
             </Card>
 
             <Card className='card'>
-                <Card.Img variant="top" src={`${Nym}`} />
-                <Card.Body>
-                    <Card.Title>Nymira</Card.Title>
-                    <Card.Text>
-                        Moderator <br/>
-                        Queen of Remnant <br/>
-                        Nymira 
-                    </Card.Text>
-                    <a href='https://www.twitch.tv/motherofdemons_nymira' target='__blank'><Button variant="primary">Twitch</Button></a>
-                    <Button variant="danger">Youtube</Button>
-                    <Button variant="danger">Twitter</Button>
-                </Card.Body>
-            </Card>
-
-            <Card className='card'>
                 <Card.Img variant="top" src={`${Haaff}`} />
                 <Card.Body>
                     <Card.Title>Echo</Card.Title>
@@ -76,6 +61,19 @@ function UserCard(){
                 </Card.Body>
             </Card>
 
+            <Card className='card'>
+                <Card.Img variant="top" src={`${Nym}`} />
+                <Card.Body>
+                    <Card.Title>Nymira</Card.Title>
+                    <Card.Text>
+                        Queen of Remnant <br/>
+                        Nymira 
+                    </Card.Text>
+                    <a href='https://www.twitch.tv/motherofdemons_nymira' target='__blank'><Button variant="primary">Twitch</Button></a>
+                    <Button variant="danger">Youtube</Button>
+                    <Button variant="danger">Twitter</Button>
+                </Card.Body>
+            </Card>
 
             <Card className='card'>
                 <Card.Img variant="top" src={`${Theo}`} />
