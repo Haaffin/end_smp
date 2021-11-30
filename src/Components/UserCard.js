@@ -9,6 +9,7 @@ import Taylor from '../assets/Images/taylor.jpg'
 import Kai from '../assets/Images/kai.jpeg'
 import Moss from '../assets/Images/moss.png'
 import Bard from '../assets/Images/bard.png'
+import Nano from '../assets/Images/nano.png'
 import "./usercard.css"
 
 function UserCard(){
@@ -95,7 +96,7 @@ function UserCard(){
                 <Card.Body>
                     <Card.Title>Moss</Card.Title>
                     <Card.Text>
-                        Resident of Faeblaze <br/>
+                        King of Yggdrasil <br/>
                         Miran
                     </Card.Text>
                     <a href='http://twitch.tv/HDmoss' target='__blank'><Button variant="primary">Twitch</Button></a>
@@ -109,8 +110,8 @@ function UserCard(){
                 <Card.Body>
                     <Card.Title>Bard</Card.Title>
                     <Card.Text>
-                        Resident of Remnant <br/>
-                        Aesin
+                        Resident of Yggdrasil <br/>
+                        Toby
                     </Card.Text>
                     <a href='https://www.twitch.tv/bardicled' target='__blank'><Button variant="primary">Twitch</Button></a>
                     <Button variant="danger">Youtube</Button>
@@ -129,6 +130,20 @@ function UserCard(){
                     <a href='https://www.twitch.tv/derpyartist101' target='__blank'><Button variant="primary">Twitch</Button></a>
                     <Button variant="danger">Youtube</Button>
                     <a href='https://www.youtube.com/channel/UC1O5LBNTOi8oM284EPASLIQ' target='__blank'><Button variant="primary">Twitter</Button></a>
+                </Card.Body>
+            </Card>
+
+            <Card className='card'>
+                <Card.Img variant="top" src={`${Nano}`} />
+                <Card.Body>
+                    <Card.Title>Nano</Card.Title>
+                    <Card.Text>
+                        Resident of Vaitor <br/>
+                        Damien
+                    </Card.Text>
+                    <a href='https://www.twitch.tv/nanohour' target='__blank'><Button variant="primary">Twitch</Button></a>
+                    <a href='https://www.youtube.com/channel/UCju2hdDZHQOJZDtG75v0RYA' target=''><Button variant="primary">Youtube</Button></a>
+                    <a href='https://twitter.com/NanoHour_Art' target=''><Button variant="primary">Twitter</Button></a>
                 </Card.Body>
             </Card>
 
@@ -152,4 +167,4 @@ export default UserCard
         <a href='#' target=''><Button variant="danger">Youtube</Button></a>
         <a href='#' target=''><Button variant="danger">Twitter</Button></a>
     </Card.Body>
-</Card>  */}
+</Card> */}
