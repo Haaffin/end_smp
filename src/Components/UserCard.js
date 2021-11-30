@@ -67,7 +67,7 @@ function UserCard(){
                     <Card.Title>Nymira</Card.Title>
                     <Card.Text>
                         Queen of Remnant <br/>
-                        Nymira 
+                        Nessarith 
                     </Card.Text>
                     <a href='https://www.twitch.tv/motherofdemons_nymira' target='__blank'><Button variant="primary">Twitch</Button></a>
                     <Button variant="danger">Youtube</Button>
@@ -126,8 +126,8 @@ function UserCard(){
                         Henri
                     </Card.Text>
                     <a href='https://www.twitch.tv/derpyartist101' target='__blank'><Button variant="primary">Twitch</Button></a>
-                    <Button variant="danger">Youtube</Button>
-                    <a href='https://www.youtube.com/channel/UC1O5LBNTOi8oM284EPASLIQ' target='__blank'><Button variant="primary">Twitter</Button></a>
+                    <a href='https://www.youtube.com/channel/UC1O5LBNTOi8oM284EPASLIQ' target='__blank'><Button variant="primary">Youtube</Button></a>
+                    <Button variant="danger">Twitter</Button>
                 </Card.Body>
             </Card>
 
