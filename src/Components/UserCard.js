@@ -62,20 +62,6 @@ function UserCard(){
             </Card>
 
             <Card className='card'>
-                <Card.Img variant="top" src={`${Nym}`} />
-                <Card.Body>
-                    <Card.Title>Nymira</Card.Title>
-                    <Card.Text>
-                        Queen of Remnant <br/>
-                        Nessarith 
-                    </Card.Text>
-                    <a href='https://www.twitch.tv/motherofdemons_nymira' target='__blank'><Button variant="primary">Twitch</Button></a>
-                    <Button variant="danger">Youtube</Button>
-                    <Button variant="danger">Twitter</Button>
-                </Card.Body>
-            </Card>
-
-            <Card className='card'>
                 <Card.Img variant="top" src={`${Theo}`} />
                 <Card.Body>
                     <Card.Title>Theo</Card.Title>
@@ -86,20 +72,6 @@ function UserCard(){
                     <a href='https://www.twitch.tv/galactic__jelly' target='__blank'><Button variant="primary">Twitch</Button></a>
                     <Button variant="danger">Youtube</Button>
                     <Button variant="danger">Twitter</Button>
-                </Card.Body>
-            </Card>
-
-            <Card className='card'>
-                <Card.Img variant="top" src={`${Moss}`} />
-                <Card.Body>
-                    <Card.Title>Moss</Card.Title>
-                    <Card.Text>
-                        King of Yggdrasil <br/>
-                        Miran
-                    </Card.Text>
-                    <a href='http://twitch.tv/HDmoss' target='__blank'><Button variant="primary">Twitch</Button></a>
-                    <a href='https://m.youtube.com/channel/UCXb6ZIZQTtcAyrn8t7QYcfA' target='__blank'><Button variant="primary">Youtube</Button></a>
-                    <a href='https://www.twitter.com/4k_moss' target='__blank'><Button variant="primary">Twitter</Button></a>
                 </Card.Body>
             </Card>
 
