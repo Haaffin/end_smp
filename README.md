@@ -5,4 +5,4 @@ Head on over to the [Issues](https://github.com/Haaffin/end_smp/issues) and clic
 
 ## The End SMP
 
-The End SMP is a modded lore based SMP featuring three major kingdoms as they fight, lie, and cheat their way to their end goals. This, is the github page for the website you can find [here](https://the-end-smp.herokuapp.com/)
+The End SMP is a modded lore based SMP featuring three major kingdoms as they fight, lie, and cheat their way to their end goals. This is the github page for the website you can find [here](https://the-end-smp.herokuapp.com/)
